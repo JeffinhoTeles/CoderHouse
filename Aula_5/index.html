@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,8 @@
     <h1>HTML e CSS</h1>
   </head>
   <body>
+
+    <a href="./midias.html">Clique aqui</a>
     <div>
       <h1>Bolo simples</h1>
       <h2>Ingredientes</h2>
@@ -40,6 +42,7 @@
         </li>
       </ol>
     </div>
+
 <div>
     <table border>
       <tr>
@@ -65,7 +68,34 @@
     </tbody>
     </table>
   </div>
+<br>
+  <form>
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      <p>Genero: </p>
+<span>Masculino</span>
+<input type="radio" name="genero" value="masculino">
+<span>Feminino</span>
+<input type="radio" name="genero" value="feminino">
+<span>Outro</span>
+<input type="radio" name="genero" value="outro"><br><br>
 
-  
+<label for="nome_sobrenome">Nome: </label>
+<input type="text" name="nome_sobrenome">
+<label for="nome_sobrenome">Sobrenome: </label>
+<input type="text" name="nome_sobrenome"><br><br>
+
+<label for="tamanhos">Tamanhos: </label>
+<select name="tamanhos"> 
+  <option value="P">Pequeno</option>
+  <option value="M">Medio</option>
+  <option value="G">Grande</option> 
+</select><br><br>
+
+<button type="submit">Enviar</button>
+    </fieldset>
+
+  </form>
+
   </body>
 </html>
