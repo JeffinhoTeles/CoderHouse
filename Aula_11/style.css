@@ -55,8 +55,8 @@ div {
   .good-luck{
 /* propriedades decorativas */
 border:dotted 5px rgb(189, 150, 43);
-margin: 5px 8px 5px 8px;
-padding: 6px 9px 6px 9px;
+margin: 5px 8px ;
+padding: 6px 9px;
 display: inline-block;
 font-size: 90px;
 font-family: Arial;
