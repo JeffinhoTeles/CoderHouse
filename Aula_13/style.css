@@ -1,0 +1,35 @@
+
+.paragrafo-1:hover{
+    color:blue
+}
+
+
+.paragrafo-2:active{
+    color:forestgreen
+}
+
+.paragrafo-3:visited{
+    color:chocolate
+}
+
+.paragrafo-4:focus{
+   background-color:cyan
+}
+ li:first-child{
+
+    color: chartreuse;
+ }
+
+ li:last-child{
+color: hotpink
+
+ }
+
+ tr:nth-child(2n+1){
+
+    background-color: gray;
+ }
+
+ li:not(.meu-item){
+    color: orange;
+ }
