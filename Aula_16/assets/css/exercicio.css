@@ -1,0 +1,26 @@
+.div-h-f{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+   
+}
+header,footer{
+    background-color: black;   
+    width: 100%;
+    padding: 15px;
+}
+
+nav{
+background-color: beige;
+width: 25%;
+
+}
+
+aside{
+    background-color: bisque;
+    width: 25%;
+}
+article{
+    background-color: azure;
+    width: 50%;
+}

@@ -1,0 +1,21 @@
+.pai{
+background-color: black;
+display: flex;
+flex-flow: wrap;
+flex-direction: column-reverse;
+justify-content: start;
+align-items: end;
+align-content: space-between;
+height: 300px;
+width: 300;
+gap: 5px;
+
+}
+
+.filho{
+   height: 50px;
+   width: 50px;
+   background-color: beige;
+   border: 1px solid red;
+   
+}
