@@ -1,0 +1,28 @@
+.meu-grid{
+
+   display: grid;
+   grid-area: 
+   " nav header header"
+   "nav main main"
+   "nav footer footer";
+
+   grid-template-columns: ;
+   grid-template-rows: ;
+
+}
+
+header{
+   grid-template-columns: header;
+   background-color: black;
+}
+
+nav{
+   grid-area: nav;
+   background-color: azure;
+}
+
+footer{
+
+   grid-area: footer;
+   background-color: blue;
+}
