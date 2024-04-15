@@ -2,41 +2,55 @@
    display: grid;
    grid-template-columns: 100px auto 100px;
    grid-template-rows: repeat(6, 100px);
-   gap: 10px;
+  
    grid-template-areas:
        "header header header"
-       "nav main aside"
-       ". footer .";
+       "nav nav nav"
+       "main main main"
+       "aside aside aside"
+       "footer footer footer";
 }
 
 header {
    grid-area: header;
+   display: flex;
    background-color: red;
+   
 }
 nav {
    grid-area: nav;
+   display: flex;
    background-color: violet;
+   
 }
 main {
    grid-area: main;
+   display: flex;
    background-color: green;
+   
 }
 aside {
    grid-area: aside;
+   display: flex;
    background-color: yellow;
+   
 }
 footer {
    grid-area: footer;
-   background-color: lightgray;
+   display: flex;
+   background-color: lightgray;   
+   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
    .container {
        grid-template-columns: repeat(4, 1fr);
        grid-template-areas:
-           "nav nav header header"
-           "nav nav main main"
-           "aside footer footer .";
+       "header header header"
+       "nav nav nav"
+       "main main main"
+       "aside aside aside"
+       "footer footer footer";
    }
 }
 
@@ -44,9 +58,10 @@ footer {
    .container {
        grid-template-columns: repeat(3, 1fr);
        grid-template-areas:
-           "header header header" /*corresponde a 3 colunas a quantidade de palavras que insere*/
-           "nav nav nav"
-           "main main aside"
-           "footer footer footer" ;
+       "header header header"
+       "nav nav nav"
+       "main main main"
+       "aside aside aside"
+       "footer footer footer" ;
    }
 }
